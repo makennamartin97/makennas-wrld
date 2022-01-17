@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x86fcac110c79da01cbda018c5b75c4afd7f7b2ef",
+  "SCAN_LINK": "https://polygonscan.com/token/0x86fcac110c79da01cbda018c5b75c4afd7f7b2ef",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Makenna's Wrld",
+  "SYMBOL": "MWNFT",
+  "MAX_SUPPLY": 10,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/makennas-wrld",
+  "SHOW_BACKGROUND": true
+}
