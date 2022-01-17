@@ -197,7 +197,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        style={{ padding: 24, backgroundColor: "#000000" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
@@ -215,7 +215,7 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "black",
-              opacity: "75%",
+              opacity: "70%",
               padding: 24,
               borderRadius: 24,
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
@@ -246,16 +246,6 @@ function App() {
                 textAlign: "center",
               }}
             >
-              <StyledButton
-                onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
-                }}
-                style={{
-                  margin: "5px",
-                }}
-              >
-                Roadmap
-              </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
@@ -295,7 +285,7 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "rgb(255, 22, 22)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
@@ -312,7 +302,9 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
+                    <StyledButton style={{
+                    backgroundColor: "rgb(255, 22, 22)",
+                    }}
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
