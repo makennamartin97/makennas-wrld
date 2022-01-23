@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x86fcac110c79da01cbda018c5b75c4afd7f7b2ef",
-  "SCAN_LINK": "https://polygonscan.com/token/0x86fcac110c79da01cbda018c5b75c4afd7f7b2ef",
+  "CONTRACT_ADDRESS": "0x1cfE84c502672fEb0e4971d7Bb5A757538e48786",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/token/0x1cfE84c502672fEb0e4971d7Bb5A757538e48786",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
   "NFT_NAME": "Makenna's Wrld",
-  "SYMBOL": "MWNFT",
-  "MAX_SUPPLY": 10,
+  "SYMBOL": "MW",
+  "MAX_SUPPLY": 31,
   "WEI_COST": 4000000000000000000,
   "DISPLAY_COST": 4,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/makennas-wrld",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/makennaswrld",
   "SHOW_BACKGROUND": true
 }
