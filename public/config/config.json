@@ -2,9 +2,9 @@
   "CONTRACT_ADDRESS": "0x1cfE84c502672fEb0e4971d7Bb5A757538e48786",
   "SCAN_LINK": "https://mumbai.polygonscan.com/token/0x1cfE84c502672fEb0e4971d7Bb5A757538e48786",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Ethereum Mainnet",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
   "NFT_NAME": "Makenna's Wrld",
   "SYMBOL": "MW",
